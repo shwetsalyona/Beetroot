@@ -6,8 +6,112 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/fonts.css">
 </head>
 <body>
-
+<div class="forms flex">
+    <form action="" class="form account">
+        <h2 class="form-title">Create an Account</h2>
+        <div class="names flex">
+            <div class="firstname flex">
+                <label for="firstname">First Name</label>
+                <input type="text" id="firstname">
+            </div>
+            <div class="lastname flex">
+                <label for="lastname">Last Name</label>
+                <input type="text" id="lastname">
+            </div>
+        </div>
+        <div class="email flex">
+            <label for="email">E-mail</label>
+            <input type="email" id="email">
+        </div>
+        <span class="form-text">We'll never share your email with anyone else.</span>
+        <div class="gender flex">
+            <input type="radio" id="male" name="gender" class="gender-input">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" class="gender-input">
+            <label for="female">Female</label>
+        </div>
+        <div class="location flex">
+            <div class="country flex">
+                <label for="country">Country</label>
+                <select name="country" id="country">
+                    <option value="select">Select</option>
+                    <option value="ukraine">Ukraine</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                    <option value="turkey">Turkey</option>
+                    <option value="india">India</option>
+                    <option value="france">France</option>
+                </select>
+            </div>
+            <div class="city flex">
+                <label for="city">City</label>
+                <input type="text" id="city">
+            </div>
+        </div>
+        <button class="btn btn-signup">Sign Up</button>
+        <span class="form-text form-text-center">By clicking the 'Sign Up' button, you confirm that you accept our<br> <a
+                href="#">Terms of Use </a>and <a
+                href="#">Privacy Policy</a></span>
+        <div class="login flex">
+            <span>Have an account?</span>
+            <span><a href="#">Log In</a></span>
+        </div>
+    </form>
+    <form action="" class="form profile">
+        <h2 class="form-title">Profile</h2>
+        <div class="userpic flex">
+            <img src="./images/userpic.png" alt="photo of a user" class="userpic-img">
+            <div class="input-file">
+                <label for="imgfile" class="input-file-shown"></label>
+                <input type="file" id="imgfile" class="input-file-hidden">
+                <span class="input-file-text">Up to 1 MB (300x300 px)</span>
+            </div>
+            <input type="reset" value=" " class="input-reset">
+        </div>
+        <div class="profile-data flex">
+            <div class="profile-data-column flex">
+                <div class="name">
+                    <label for="name">Name</label>
+                    <input type="text" id="name">
+                </div>
+                <div class="country2 flex">
+                    <label for="country2">Country</label>
+                    <select name="country" id="country2">
+                        <option value="select">Select</option>
+                        <option value="ukraine">Ukraine</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                        <option value="turkey">Turkey</option>
+                        <option value="india">India</option>
+                        <option value="france">France</option>
+                    </select>
+                </div>
+                <div class="zipcode">
+                    <label for="zipcode">Zip Code</label>
+                    <input type="text" id="zipcode">
+                </div>
+            </div>
+            <div class="profile-data-column flex">
+                <email2>
+                    <label for="email2">E-mail</label>
+                    <input type="email" id="email2">
+                </email2>
+                <div class="city2">
+                    <label for="city2">City</label>
+                    <input type="text" id="city2">
+                </div>
+                <div class="tel">
+                    <label for="tel">Phone Number</label>
+                    <input type="tel" id="tel">
+                </div>
+            </div>
+        </div>
+        <button class="btn btn-update">Update</button>
+    </form>
+</div>
 </body>
 </html>
