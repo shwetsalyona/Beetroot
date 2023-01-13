@@ -1,0 +1,16 @@
+@font-face {
+    font-family: RobotoRegular, serif;
+    src: url("../fonts/Roboto/Roboto-Regular.ttf");
+}
+@font-face {
+    font-family: RobotoBold, serif;
+    src: url("../fonts/Roboto/Roboto-Bold.ttf");
+}
+@font-face {
+    font-family: QuicksandMedium, serif;
+    src: url("../fonts/Quicksand/static/Quicksand-Medium.ttf");
+}
+@font-face {
+    font-family: NunitoSans, serif;
+    src: url("../fonts/Nunito_Sans/NunitoSans-SemiBold.ttf");
+}
