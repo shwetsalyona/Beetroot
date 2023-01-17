@@ -108,61 +108,64 @@ html {
     padding: 70px;
 }
 
-.hero-name {
+.hero-info-header {
     color: #666666;
     font-family: RobotoBlack, sans-serif;
     font-size: 3.6rem;
 }
 
-.hero-divider {
+.hero-info-divider {
     width: 100px;
     height: 1px;
     background-color: #FFCC00;
+    margin: 30px 0;
 }
 
-.hero-job {
+.hero-info-subheader {
     color: #666666;
     font-family: RalewayRegular, sans-serif;
     font-size: 2.4rem;
 }
 
-.hero-media {
+.hero-info-media {
     gap: 10px;
+    padding: 30px 0 50px 0;
 }
 
-.hero-media-svg {
+.hero-info-media-svg {
     width: 30px;
     height: 30px;
 }
 
-.hero-media-svg:hover {
+.hero-info-media-svg:hover {
     fill: #FFCC00;
 }
 
-.hero-text {
+.hero-info-text {
     color: #333333;
     font-family: RalewayMedium, sans-serif;
     font-size: 1.4rem;
     line-height: 2.4rem;
 }
 
-.hero-dividers {
+.hero-info-dividers {
     gap: 5px;
+    margin: 15px 0 25px 0;
 }
 
-.hero-divider-sm {
+.hero-info-divider-sm {
     width: 10px;
     height: 4px;
     background-color: #FFCC00;
 }
 
-.hero-divider-lg {
+.hero-info-divider-lg {
     width: 20px;
     height: 4px;
     background-color: #FFCC00;
 }
 
-.hero-btn {
+.btn {
     text-transform: uppercase;
     color: #666666;
     font-family: OpenSans, sans-serif;
@@ -172,15 +175,15 @@ html {
     border: 1px solid #FFCC00;
 }
 
-.hero-btn:hover {
+.btn:hover {
     background-color: #898F8F;
     color: #FFCC00;
 }
 
-.media-link {
+.hero-info-media-link {
     color: #CCCCCC;
 }
 
-.media-link:hover {
+.hero-info-media-link:hover {
     color: #FFCC00;
 }
