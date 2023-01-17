@@ -1,0 +1,19 @@
+@font-face {
+    font-family: OpenSans, sans-serif;
+    src: url("../fonts/Open_Sans/static/OpenSans/OpenSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: RalewayMedium, sans-serif;
+    src: url("../fonts/Raleway/static/Raleway-Medium.ttf");
+}
+
+@font-face {
+    font-family: RalewayRegular, sans-serif;
+    src: url("../fonts/Raleway/static/Raleway-Regular.ttf");
+}
+
+@font-face {
+    font-family: RobotoBlack, sans-serif;
+    src: url("../fonts/Roboto/Roboto-Black.ttf");
+}
