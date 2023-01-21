@@ -1,0 +1,162 @@
+html {
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+span {
+    display: block;
+}
+
+.display-block {
+    display: block;
+}
+
+body {
+    font-family: LatoRegular, sans-serif;
+}
+
+.wrapper {
+    width: 81.25%;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 41px 0 43px 0;
+    justify-content: space-between;
+}
+
+.header-logo {
+    align-self: center;
+}
+
+.header-nav {
+    gap: 42px;
+    align-self: center;
+}
+
+.header-nav-item {
+    font-size: 1.4rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #000000;
+}
+
+.header-search {
+    padding-left: 42px;
+}
+
+.header-nav-item {
+    position: relative;
+}
+
+.header-nav-item:before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    background-color: #000000;
+    bottom: -3px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+    /*display: none;*/
+}
+
+/*.header-nav-item:hover .header-nav-item:before {*/
+/*    display: block;*/
+/*}*/
+
+
+.main-slogan {
+    background: url("../images/bg-image.png") no-repeat;
+    background-size: cover;
+    height: 600px;
+    padding-top: 100px;
+}
+
+.main-slogan-text {
+    font-family: RedHatDisplaySemiBold, sans-serif;
+    font-size: 4.8rem;
+    letter-spacing: 0.5px;
+    line-height: 6.4rem;
+}
+
+.blog-title {
+    font-family: RedHatDisplayMedium, sans-serif;
+    font-size: 4.8rem;
+    letter-spacing: 0.5px;
+    padding: 90px 0 50px 0;
+}
+
+.blog-item {
+    gap: 32px;
+    padding-bottom: 50px;
+}
+
+.blog-item-info {
+    font-size: 1.6rem;
+    color: #7B7B7B;
+    line-height: 2.7rem;
+    padding-top: 85px;
+}
+
+.blog-item-info-title {
+    font-family: RedHatDisplayMedium, sans-serif;
+    color: #000000;
+    font-size: 2.3rem;
+    line-height: 3.8rem;
+    padding: 30px 0 15px 0;
+}
+
+.blog-item-info-date {
+    padding-bottom: 50px;
+}
+
+.flex-right {
+    justify-content: right;
+}
+
+.posts-title {
+    font-family: RedHatDisplaySemiBold, sans-serif;
+    font-size: 2.8rem;
+    padding: 40px 0 50px 0;
+
+}
+
+.posts-items {
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.posts-items-item {
+    max-width: 370px;
+}
+
+.item-subtitle {
+    justify-content: space-between;
+    font-size: 1.2rem;
+    color: #7B7B7B;
+    padding-top: 20px;
+}
+
+.posts-items-item-title {
+    font-family: RedHatDisplayMedium, sans-serif;
+    font-size: 2.2rem;
+    padding: 26px 0 20px 0;
+    line-height: 3.7rem;
+}
+
+.posts-items-item-description {
+    font-size: 1.6rem;
+    line-height: 2.7rem;
+    color: #565656;
+}

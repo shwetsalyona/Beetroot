@@ -1,0 +1,18 @@
+.wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 121px;
+  .slogan {
+    color: #898F8F;
+    font-family: RalewayMedium, sans-serif;
+    font-size: 1.8rem;
+  }
+  .title {
+    color: #FFCC00;
+    font-family: RobotoBlack, sans-serif;
+    font-size: 6rem;
+    text-transform: uppercase;
+    padding: 15px 0 40px 0;
+  }
+}
