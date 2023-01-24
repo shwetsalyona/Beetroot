@@ -6,12 +6,18 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/fonts.css">
+    <link rel="stylesheet" href="./styles/media.css">
 </head>
 <body>
 <header>
     <div class="wrapper">
+
+        <!-- header-nav -->
+
         <div class="header flex">
             <img src="./images/Logo.png" alt="logo" class="header-logo">
             <div class="header-nav flex">
@@ -23,87 +29,202 @@
                 <img src="./images/search.png" alt="magnifying glass icon" class="header-search">
             </div>
         </div>
+
+        <!-- header-nav max-width1200px-->
+
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="./images/Logo.png" alt="logo"></a>
+                <div>
+                    <img src="./images/search.png" alt="magnifying glass icon" class="header-search">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link header-nav-item" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link header-nav-item" href="#">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link header-nav-item" href="#">WORKS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link header-nav-item" href="#">BLOG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link header-nav-item" href="#">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </div>
+
 </header>
 <main>
     <div class="main">
         <div class="main-slogan">
             <div class="wrapper">
-                <div class="main-slogan-text">Manifest is a newborn theme.<br>
+                <h1>Manifest is a newborn theme.<br>
                     Clean, simple and fast.
-                </div>
+                </h1>
             </div>
         </div>
         <div class="blog wrapper">
-            <h2 class="blog-title">Blog</h2>
+            <h2>Blog</h2>
             <div class="blog-item flex">
                 <img src="./images/arrow.png" alt="arrow-left" class="blog-item-img">
                 <div class="blog-item-info">
-                    <span class="blog-item-info-subtitle">Technology, Interface Design</span>
-                    <h3 class="blog-item-info-title">Using UX Design to Build a<br> Sustainable Future</h3>
-                    <span class="blog-item-info-date">6 May, 2020</span>
+                    <div class="blog-item-info-subtitle">Technology, Interface Design</div>
+                    <h3>Using UX Design to Build a<br> Sustainable Future</h3>
+                    <div class="blog-item-info-date">6 May, 2020</div>
                     <p class="blog-item-info-description">Transformation has to be driven by everybody, not just
-                        by<br>
-                        climate groups, and we have a responsibility to use our<br> influence to drive this. <img
-                                src="./images/Arrow-small.png" alt="arrow"></p>
+                        by climate groups, and we have a responsibility to use our<br> influence to drive this. <a
+                                href=""><img
+                                src="./images/Arrow-small.png" alt="arrow" class="arrow"></a></p>
                 </div>
             </div>
             <div class="blog-item flex flex-right">
                 <div class="blog-item-info">
-                    <span class="blog-item-info-subtitle">Technology, Interface Design</span>
-                    <h3 class="blog-item-info-title">Using UX Design to Build a<br> Sustainable Future</h3>
-                    <span class="blog-item-info-date">6 May, 2020</span>
+                    <div class="blog-item-info-subtitle">Technology, Interface Design</div>
+                    <h3>Using UX Design to Build a<br> Sustainable Future</h3>
+                    <div class="blog-item-info-date">6 May, 2020</div>
                     <p class="blog-item-info-description">Transformation has to be driven by everybody, not just
-                        by<br>
-                        climate groups, and we have a responsibility to use our<br> influence to drive this. <img
-                                src="./images/Arrow-small.png" alt="arrow"></p>
+                        by climate groups, and we have a responsibility to use our<br> influence to drive this. <a
+                                href=""><img
+                                src="./images/Arrow-small.png" alt="arrow" class="arrow"></a></p>
                 </div>
                 <img src="./images/blog-image.png" alt="arrow-left" class="blog-item-img">
             </div>
         </div>
         <div class="posts wrapper">
             <div class="section-title flex">
-                <div class="posts-title">Latest Posts</div>
-                <a href="#" class="posts-viewall">View All</a>
+                <div class="section-title-name">Latest Posts</div>
+                <a href="#" class="link">View All <img src="./images/Arrow-small.png" alt="arrow" class="arrow"></a>
             </div>
             <div class="posts-items flex">
-                <div class="posts-items-item">
-                    <img src="./images/post-img1.png" alt="lamp" class="posts-items-item-img">
-                    <div class="item-subtitle flex">
-                        <span>Interface Design</span>
-                        <span>8 June, 2020</span>
+                <div class="posts-item">
+                    <img src="./images/post-img1.png" alt="lamp" class="posts-item-img">
+                    <div class="posts-item-info">
+                        <div class="item-subtitle flex">
+                            <div>Interface Design</div>
+                            <div>8 June, 2020</div>
+                        </div>
+                        <h4>UX traffic light colours</h4>
+                        <p class="item-description">UI has to make a huge visual difference between warning,
+                            an alert and a success.</p>
                     </div>
-                    <span class="posts-items-item-title">UX traffic light colours</span>
-                    <p class="posts-items-item-description">UI has to make a huge visual difference between warning,
+                </div>
+                <div class="posts-item">
+                    <img src="./images/post-img2.png" alt="lamp" class="posts-item-img">
+                    <div class="posts-item-info">
+                        <div class="item-subtitle flex">
+                            <div>Technology</div>
+                            <div>6 May, 2020</div>
+                        </div>
+                        <h4>Using UX Design to Build a Sustainable Future</h4>
+                        <p class="item-description">UI has to make a huge visual difference between warning,
+                            an alert and a success.</p>
+                    </div>
+                </div>
+                <div class="posts-item">
+                    <img src="./images/post-img3.png" alt="lamp" class="posts-item-img">
+                    <div class="posts-item-info">
+                        <div class="item-subtitle flex">
+                            <div>Visual Design</div>
+                            <div>8 June, 2020</div>
+                        </div>
+                        <h4>UX traffic light colours</h4>
+                        <p class="item-description">Is it possible to create a delightful user experience
+                            without following best UX practices?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="popular wrapper">
+            <div class="section-title flex">
+                <div class="section-title-name">The Most Popular</div>
+                <a href="#" class="link">View All <img src="./images/Arrow-small.png" alt="arrow" class="arrow"></a>
+            </div>
+            <div class="popular-items flex">
+                <div class="popular-item">
+                    <img src="./images/popular-img1.png" alt="lamp" class="posts-item-img">
+                    <div class="item-subtitle flex">
+                        <div>Interface Design</div>
+                        <div>8 June, 2020</div>
+                    </div>
+                    <h4>UX traffic light colours</h4>
+                    <p class="item-description">UI has to make a huge visual difference between warning,
                         an alert and a success.</p>
                 </div>
-                <div class="posts-items-item">
-                    <img src="./images/post-img2.png" alt="lamp" class="posts-items-item-img">
+                <div class="popular-item">
+                    <img src="./images/popular-img2.png" alt="lamp" class="posts-item-img">
                     <div class="item-subtitle flex">
-                        <span>Technology</span>
-                        <span>6 May, 2020</span>
+                        <div>Technology</div>
+                        <div>6 May, 2020</div>
                     </div>
-                    <span class="posts-items-item-title">Using UX Design to Build a Sustainable Future</span>
-                    <p class="posts-items-item-description">UI has to make a huge visual difference between warning,
+                    <h4>Using UX Design to Build a Sustainable Future</h4>
+                    <p class="item-description">UI has to make a huge visual difference between warning,
                         an alert and a success.</p>
                 </div>
-                <div class="posts-items-item">
-                    <img src="./images/post-img3.png" alt="lamp" class="posts-items-item-img">
-                    <div class="item-subtitle flex">
-                        <span>Visual Design</span>
-                        <span>8 June, 2020</span>
-                    </div>
-                    <span class="posts-items-item-title">UX traffic light colours</span>
-                    <p class="posts-items-item-description">Is it possible to create a delightful user experience
-                        without following best UX practices?</p>
-                </div>
+            </div>
+        </div>
+        <button class="btn">Load More</button>
+        <div class="designer wrapper flex">
+            <div class="designer-job">Full-time UI/UX designer<br>
+                Head of Design at VeronaLabs.com<br><a href="#"><img
+                        src="./images/Arrow-small.png" alt="arrow" class="arrow"></a>
+            </div>
+            <div class="designer-description flex">
+                <p>We work with clients around the world from our headquarters in Charleston, South Carolina.</p>
+                <p>We focus on naming, branding, brand narratives, website design and development, and brand
+                    experiences.</p>
             </div>
         </div>
     </div>
 </main>
 <footer>
-    <div class="footer"></div>
+    <div class="footer">
+        <div class="footer-info wrapper flex">
+            <div class="footer-info-contact flex">
+                <div class="footer-contact-question">Need a project?</div>
+                <a href="tel:(239) 555-0108">(239) 555-0108</a>
+                <a href="mailto:tanya.hill@example.com" class="footer-contact-link">tanya.hill@example.com</a>
+            </div>
+            <div class="footer-info-media flex">
+                <a href="#" class="footer-media-box flex">
+                    <svg class="footer-svg footer-instagram-svg">
+                        <use xlink:href="./svg/instagram.svg#instagram"></use>
+                    </svg>
+                </a>
+                <a href="#" class="footer-media-box flex">
+                    <svg class="footer-svg footer-facebook-svg">
+                        <use xlink:href="./svg/facebook.svg#facebook"></use>
+                    </svg>
+                </a>
+                <a href="#" class="footer-media-box flex">
+                    <svg class="footer-svg footer-twitter-svg">
+                        <use xlink:href="./svg/twitter.svg#twitter"></use>
+                    </svg>
+                </a>
+                <a href="#" class="footer-media-box flex">
+                    <svg class="footer-svg footer-linkedin-svg">
+                        <use xlink:href="./svg/linkedin.svg#linkedin"></use>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class="copyright">© Copyright Manifest Theme. All rights reserved</div>
+    </div>
 </footer>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
 </html>
