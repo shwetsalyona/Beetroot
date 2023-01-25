@@ -9,9 +9,8 @@ html {
 }
 
 $yellow-color: #FFCC00;
-
 $gray-color-primary: #666666;
-
+$border: 1px solid $yellow-color;
 
 .flex {
   display: flex;
@@ -52,19 +51,14 @@ $gray-color-primary: #666666;
   align-self: center;
 }
 
-.hero {
-
-}
-
 .hero-photo {
   width: 50%;
   padding: 70px;
-  border-right: 1px solid $yellow-color;
+  border-right: $border;
 }
 
 .hero-photo-frame {
   position: relative;
-
 }
 
 .hero-photo-frame-box {
@@ -75,29 +69,29 @@ $gray-color-primary: #666666;
 }
 
 .frame-box-1 {
-  border-left: 1px solid $yellow-color;
-  border-top: 1px solid $yellow-color;
+  border-left: $border;
+  border-top: $border;
   top: -15px;
   left: -15px;
 }
 
 .frame-box-2 {
-  border-right: 1px solid $yellow-color;
-  border-top: 1px solid $yellow-color;
+  border-right: $border;
+  border-top: $border;
   top: -15px;
   right: -15px;
 }
 
 .frame-box-3 {
-  border-right: 1px solid $yellow-color;
-  border-bottom: 1px solid $yellow-color;
+  border-right: $border;
+  border-bottom: $border;
   bottom: -15px;
   right: -15px;
 }
 
 .frame-box-4 {
-  border-bottom: 1px solid $yellow-color;
-  border-left: 1px solid $yellow-color;
+  border-bottom: $border;
+  border-left: $border;
   bottom: -15px;
   left: -15px;
 }
@@ -177,7 +171,7 @@ $gray-color-primary: #666666;
   font-size: 1.4rem;
   padding: 5px 10px;
   background-color: white;
-  border: 1px solid $yellow-color;
+  border: $border;
 }
 
 .btn:hover {
