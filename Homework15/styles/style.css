@@ -11,6 +11,8 @@ html {
 body {
     background-color: #E5E5E5;
     color: #545454;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .flex {

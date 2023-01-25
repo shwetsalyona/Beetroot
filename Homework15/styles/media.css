@@ -1,0 +1,9 @@
+@media (max-width: 756px) {
+    .forms {
+        flex-direction: column;
+    }
+    .form {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
