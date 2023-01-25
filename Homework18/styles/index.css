@@ -164,6 +164,10 @@ h3 {
   padding-left: 20px;
 }
 
+.designer-job .arrow {
+  padding-left: 0;
+}
+
 .section-title-name {
   font-family: RedHatDisplaySemiBold, sans-serif;
   font-size: 2.8rem;
