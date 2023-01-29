@@ -59,16 +59,13 @@ a {
   text-transform: uppercase;
   letter-spacing: 5px; /* Move to variable */
   color: #000000;
+  position: relative;
 }
 
 .header-search {
   padding: 0 40px 0 42px;
   height: 16px;
   align-self: center;
-}
-
-.header-nav-item {
-  position: relative;
 }
 
 .header-nav-item:hover {

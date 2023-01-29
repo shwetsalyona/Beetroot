@@ -1,0 +1,93 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+}
+
+body {
+  font-family: MontserratRegular, sans-serif;
+  font-size: 1.6rem;
+  color: #4F4F4F;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+  padding: 30px 10px;
+}
+
+.sidebar-theme {
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.sidebar-title {
+  color: #828282;
+  padding: 30px 0 10px 0;
+}
+
+.sidebar-item {
+  align-items: center;
+  gap: 20px;
+  padding: 10px 15px;
+  color: #4F4F4F;
+}
+.sidebar-item:hover {
+  background-color: #9E8CFC;
+  color: #FFFFFF;
+  cursor: url("../images/cursor.svg"), auto;
+}
+.sidebar-item:hover .icon {
+  color: #FFFFFF;
+}
+
+.icon {
+  width: 26px;
+  height: 26px;
+  color: #4F4F4F;
+}
+
+.badge {
+  position: relative;
+}
+.badge-circle {
+  position: absolute;
+  right: -14px;
+  top: -6px;
+  background-color: #007BFF;
+  min-width: 20px;
+  height: 20px;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 20px;
+  border-radius: 50%;
+}
+
+.badge-success .badge-circle {
+  background-color: #6FCF97;
+}
+
+.badge-error .badge-circle {
+  background-color: #EA5455;
+  color: #FFFFFF;
+}
+
+.badge-warning .badge-circle {
+  background-color: #F2C94C;
+}
+
+/*# sourceMappingURL=index.css.map */
