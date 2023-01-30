@@ -35,9 +35,12 @@ body {
   padding: 0 15px 40px 15px;
 }
 
+.sidebar-logo {
+  cursor: url("../images/cursor.svg"), auto;
+}
+
 .sidebar-header {
   color: #4F4F4F;
-  cursor: url("../images/cursor.svg"), auto;
 }
 
 .sidebar-arrow {
@@ -141,7 +144,7 @@ body {
 .sidebar-bg-dark .icon, .sidebar-bg-dark .sidebar-title, .sidebar-bg-dark .sidebar-item-text, .sidebar-bg-dark .sidebar-header, .sidebar-bg-dark .sidebar-arrow {
   color: #BDBDBD;
 }
-.sidebar-bg-dark .sidebar-item:hover {
+.sidebar-bg-dark .sidebar-item, .sidebar-bg-dark .sidebar-logo, .sidebar-bg-dark .sidebar-arrow:hover {
   cursor: url("../images/cursor-white.svg"), auto;
 }
 

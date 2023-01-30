@@ -51,9 +51,12 @@ body {
   padding: 0 15px 40px 15px;
 }
 
+.sidebar-logo {
+  cursor: url("../images/cursor.svg"), auto;
+}
+
 .sidebar-header {
   color: $color-gray-dark;
-  cursor: url("../images/cursor.svg"), auto;
 }
 
 .sidebar-arrow {
@@ -162,7 +165,7 @@ body {
   .icon, .sidebar-title, .sidebar-item-text, .sidebar-header, .sidebar-arrow {
     color: $color-gray-light;
   }
-  .sidebar-item:hover {
+  .sidebar-item, .sidebar-logo, .sidebar-arrow:hover {
     cursor: url("../images/cursor-white.svg"), auto;
   }
 
