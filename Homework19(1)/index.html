@@ -9,14 +9,15 @@
     <link rel="stylesheet" href="./styles/index.css">
 </head>
 <body>
-<div class="sidebar sidebar-mini">
-    <!--    <div class="badge badge-error">-->
-
-    <!--    </div>-->
+<div class="sidebar" id="sidebar">
     <div class="sidebar-theme flex">
-        <img src="./images/icon-logo.svg" alt="logo" class="sidebar-logo">
-        <div class="sidebar-header">LightBoard</div>
-        <img src="./images/arrow-left.svg" alt="arrow-left" class="sidebar-arrow">
+        <a href="#" id="sidebarHeader"><img src="./images/icon-logo.svg" alt="logo" class="sidebar-logo"></a>
+        <div class="sidebar-header" >LightBoard</div>
+        <a href="#" id="sidebarArrow">
+            <svg class="sidebar-arrow">
+                <use xlink:href="./svg/arrow-left.svg#arrow-left"></use>
+            </svg>
+        </a>
     </div>
     <a href="#" class="sidebar-item flex">
         <svg class="icon">
@@ -25,6 +26,7 @@
         <div class="sidebar-item-text">Dashboard</div>
     </a>
     <div class="sidebar-title">APPS</div>
+    <img src="./images/divider.png" alt="divider" class="sidebar-divider">
     <a href="#" class="sidebar-item flex">
         <div class="badge badge-success">
             <svg class="icon">
@@ -83,6 +85,7 @@
         <div class="sidebar-item-text">Leaflet Maps</div>
     </a>
     <div class="sidebar-title">AUTH PAGES</div>
+    <img src="./images/divider.png" alt="divider" class="sidebar-divider">
     <a href="#" class="sidebar-item flex">
         <svg class="icon">
             <use xlink:href="./svg/profile.svg#profile"></use>
@@ -102,6 +105,7 @@
         <div class="sidebar-item-text">Log Out</div>
     </a>
     <div class="sidebar-title">USER INTERFACE</div>
+    <img src="./images/divider.png" alt="divider" class="sidebar-divider">
     <a href="#" class="sidebar-item flex">
         <svg class="icon">
             <use xlink:href="./svg/eye.svg#eye"></use>
@@ -134,4 +138,5 @@
     </a>
 </div>
 </body>
+<script src="index.js"></script>
 </html>

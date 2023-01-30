@@ -2,11 +2,13 @@ $font-size-primary: 1.6rem;
 $color-primary: #000000;
 $color-gray-middle: #828282;
 $color-gray-dark: #4F4F4F;
+$color-gray-light:#BDBDBD;
 $color-purple-light: #9E8CFC;
 $color-white: #FFFFFF;
 $color-success: #6FCF97;
 $color-error: #EA5455;
 $color-warning: #F2C94C;
+$color-bg-dark: #283046;
 
 @mixin flex-column {
   display: flex;
@@ -40,18 +42,31 @@ body {
 .sidebar {
   @include flex-column;
   width: 220px;
-  padding: 30px 10px;
+  padding: 30px 0;
 }
 
 .sidebar-theme {
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 40px;
+  padding: 0 15px 40px 15px;
+}
+
+.sidebar-header {
+  color: $color-gray-dark;
+  cursor: url("../images/cursor.svg"), auto;
+}
+
+.sidebar-arrow {
+  color: $color-gray-dark;
+  align-self: center;
+  width: 20px;
+  height: 20px;
+  cursor: url("../images/cursor.svg"), auto;
 }
 
 .sidebar-title {
   color: $color-gray-middle;
-  padding: 30px 0 10px 0;
+  padding: 30px 0 10px 15px;
 }
 
 .sidebar-item {
@@ -61,9 +76,9 @@ body {
   color: $color-gray-dark;
   &:hover {
     background-color: $color-purple-light;
-    color: $color-white;
+    box-shadow: 0px 0px 20px rgba(158, 140, 252, 0.7);
     cursor: url("../images/cursor.svg"), auto;
-    .icon {
+    .icon, .sidebar-item-text {
       color: $color-white;
     }
   }
@@ -110,16 +125,45 @@ body {
   }
 }
 
-//.sidebar-mini {
-//  width: 80px;
-//  flex-direction: column;
-//  align-items: center;
-//}
+.sidebar-divider {
+  width: 40px;
+  height: 4px;
+  margin: 50px auto 25px auto;
+  display: none;
+}
 
+.sidebar-mini {
+  width: 80px;
+  padding-left: 0;
+  padding-right: 0;
+  .sidebar-header, .sidebar-item-text, .sidebar-title {
+    display: none;
+  }
+  .sidebar-item {
+    justify-content: center;
+  }
+  .sidebar-divider {
+    display: block;
+  }
+  .sidebar-theme {
+    justify-content: center;
+    position: relative;
+  }
+  .sidebar-arrow {
+    position: absolute;
+    right: -11px;
+    top: 9px;
+    transform: rotateZ(180deg);
+  }
+}
 
-//.sidebar-mini {
-//  .sidebar-svg-title {
-//    display: none;
-//  }
-//
-//}
+.sidebar-bg-dark {
+  background-color: $color-bg-dark;
+  .icon, .sidebar-title, .sidebar-item-text, .sidebar-header, .sidebar-arrow {
+    color: $color-gray-light;
+  }
+  .sidebar-item:hover {
+    cursor: url("../images/cursor-white.svg"), auto;
+  }
+
+}
