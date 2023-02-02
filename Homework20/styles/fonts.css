@@ -1,0 +1,17 @@
+/*400px*/
+@font-face {
+    font-family: LatoRegular, sans-serif;
+    src: url("../fonts/Lato/Lato-Regular.ttf");
+}
+
+/*600px*/
+@font-face {
+    font-family: RedHatDisplaySemiBold, sans-serif;
+    src: url("../fonts/Red_Hat_Display/static/RedHatDisplay-SemiBold.ttf");
+}
+
+/*400px*/
+@font-face {
+    font-family: RedHatDisplayRegular, sans-serif;
+    src: url("../fonts/Red_Hat_Display/static/RedHatDisplay-Regular.ttf");
+}
