@@ -1,0 +1,29 @@
+@font-face {
+    font-family: LatoLight, sans-serif;
+    src: url("../fonts/lato/latolight.ttf");
+}
+
+@font-face {
+    font-family: LatoRegular, sans-serif;
+    src: url("../fonts/lato/latoregular.ttf");
+}
+
+@font-face {
+    font-family: LatoSemiBold, sans-serif;
+    src: url("../fonts/lato/latosemibold.ttf");
+}
+
+@font-face {
+    font-family: LatoBold, sans-serif;
+    src: url("../fonts/lato/latobold.ttf");
+}
+
+@font-face {
+    font-family: PlayfairDisplayItalic, sans-serif;
+    src: url("../fonts/playfair/PlayfairDisplay-Italic.woff");
+}
+
+@font-face {
+    font-family: PlayfairDisplayRegular, sans-serif;
+    src: url("../fonts/playfair/PlayfairDisplay-Regular.woff");
+}
