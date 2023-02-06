@@ -19,11 +19,11 @@
 }
 
 @font-face {
-    font-family: PlayfairDisplayItalic, sans-serif;
+    font-family: PlayfairDisplayItalic;
     src: url("../fonts/playfair/PlayfairDisplay-Italic.woff");
 }
 
 @font-face {
-    font-family: PlayfairDisplayRegular, sans-serif;
+    font-family: PlayfairDisplayRegular;
     src: url("../fonts/playfair/PlayfairDisplay-Regular.woff");
 }

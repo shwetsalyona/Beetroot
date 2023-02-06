@@ -14,7 +14,7 @@ html {
 
 body {
   background: url("../images/bg.png") no-repeat;
-  background-size: cover;
+  background-size: contain;
   padding-top: 30px;
 }
 
@@ -44,9 +44,33 @@ header {
   font-family: LatoRegular, sans-serif;
   font-size: 1.4rem;
   letter-spacing: 0.128rem;
+  padding-bottom: 6px;
 }
 .nav-menu-link:hover {
-  border-bottom: 1px solid #F1897B;
+  border-bottom: 3px solid rgba(241, 137, 123, 0.3);
+}
+
+.about {
+  max-width: 523px;
+  padding: 150px 0 150px 0;
+}
+
+.about-info {
+  font-family: PlayfairDisplayRegular;
+  font-size: 4.4rem;
+}
+
+.about-text {
+  font-family: LatoRegular, sans-serif;
+  font-size: 1.8rem;
+  color: rgba(38, 42, 63, 0.8);
+  line-height: 2.6rem;
+  padding: 20px 0 50px 0;
+}
+
+.italic {
+  font-family: PlayfairDisplayItalic;
+  color: #85BBB1;
 }
 
 .statistics {
@@ -55,19 +79,52 @@ header {
   width: 100%;
   height: 670px;
   background: url("../images/statistic-image.png") no-repeat;
+  margin-bottom: 120px;
 }
 .statistics-info {
   width: 770px;
+  padding: 45px 0;
   background-color: rgba(255, 255, 255, 0.9);
   color: rgba(38, 42, 63, 0.8);
   font-family: LatoLight, sans-serif;
   font-size: 1.8rem;
 }
 .statistics-info-text {
+  font-family: LatoRegular, sans-serif;
+  font-size: 1.8rem;
+  color: rgba(38, 42, 63, 0.8);
   line-height: 2.6rem;
+  width: 55%;
 }
 .statistics-info-text p {
   padding-bottom: 50px;
+}
+
+.statistics-info-numbers {
+  width: 45%;
+  text-align: center;
+}
+.statistics-info-numbers p {
+  padding-top: 12px;
+}
+
+.currency {
+  font-family: PlayfairDisplayRegular;
+  font-size: 4rem;
+  color: #E4E4E4;
+}
+
+.statistics-info-numbers-data {
+  font-family: PlayfairDisplayRegular;
+  font-size: 6.8rem;
+  color: #262A3F;
+}
+
+.divider {
+  background-color: #85BBB1;
+  width: 100px;
+  height: 1px;
+  margin: 40px auto;
 }
 
 .btn-container {
@@ -89,7 +146,7 @@ header {
   font-family: LatoBold, sans-serif;
   font-size: 2rem;
   letter-spacing: 0.128rem;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .btn-shadow {
@@ -99,6 +156,76 @@ header {
   position: absolute;
   top: 11px;
   right: -9px;
+}
+
+.benefits {
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 90px;
+}
+
+.benefits-card {
+  width: 48%;
+  min-height: 280px;
+  padding: 50px 35px 0 35px;
+  margin-bottom: 30px;
+  border-top: 1px solid #E4E4E4;
+}
+
+.benefits-card-title {
+  font-family: PlayfairDisplayRegular;
+  font-size: 4rem;
+  line-height: 4.8rem;
+  padding-bottom: 30px;
+}
+
+.benefits-card-text {
+  font-family: LatoRegular, sans-serif;
+  font-size: 1.8rem;
+  color: rgba(38, 42, 63, 0.8);
+  line-height: 2.6rem;
+}
+
+.quote {
+  background: url("../images/quote-background.png") no-repeat;
+  background-size: cover;
+  padding: 100px 300px 100px 160px;
+  color: #FFFFFF;
+}
+
+.quote-text {
+  font-family: LatoRegular, sans-serif;
+  font-size: 3.2rem;
+  line-height: 4.6rem;
+  padding-bottom: 40px;
+  z-index: 10;
+  position: relative;
+}
+
+.quote-author {
+  font-family: PlayfairDisplayItalic;
+  font-size: 2rem;
+}
+
+.quote-icon {
+  fill: #3DB370;
+  position: absolute;
+  top: -30px;
+  left: -60px;
+  width: 102px;
+  height: 84px;
+  z-index: -1;
+}
+
+.promises {
+  background: url("../images/features-background-image.png") no-repeat;
+  height: 540px;
+  justify-content: right;
+}
+.promises-info-cards-title {
+  font-family: PlayfairDisplayRegular;
+  font-size: 2.4rem;
+  line-height: 4.8rem;
 }
 
 /*# sourceMappingURL=index.css.map */
