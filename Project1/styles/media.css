@@ -1,0 +1,106 @@
+@media (max-width: 1020px) {
+    .statistics, .promises {
+        background-size: cover;
+        justify-content: center;
+    }
+    .statistics-info-numbers-data {
+        font-size: 5.8rem;
+    }
+    .promises-info {
+        padding: 75px 20px 75px 20px
+    }
+    .reviews-cards {
+        flex-direction: column;
+        gap: 30px
+    }
+    .reviews-card {
+        width: 100%;
+    }
+    .benefits-card-title, .video-title, .reviews-title, .contact-info-title {
+        font-size: 3rem;
+    }
+    .quote {
+        padding: 100px;
+    }
+    .quote-text {
+        font-size: 2.6rem;
+    }
+    .quote-icon {
+        width: 80px;
+    }
+}
+
+@media (max-width: 820px) {
+    .header-menu-controls {
+        width: 100%;
+    }
+    .burger {
+        display: block;
+    }
+    .nav-menu {
+        display: none;
+    }
+    .about-info {
+        font-size: 3.4rem;
+    }
+    .contact {
+        flex-direction: column;
+    }
+    .contact-info, .form {
+        width: 100%;
+    }
+    .contact-info {
+        padding-bottom: 20px;
+    }
+    .promises-info {
+        flex-direction: column;
+        align-items: center;
+    }
+    .promises-info-cards {
+        text-align: center;
+        width: 100%
+    }
+    .statistics-info {
+        flex-direction: column;
+        align-items: center;
+    }
+    .statistics-info-text {
+        width: 100%;
+        text-align: center;
+        padding: 40px 20px 0 20px;
+    }
+    .statistics-info-numbers-data {
+        font-size: 3.8rem;
+    }
+    .benefits {
+        flex-direction: column;
+        align-items: center;
+    }
+    .benefits-card {
+        width: 100%;
+        text-align: center;
+    }
+    .footer, .links {
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+    }
+}
+@media (max-width: 520px) {
+    .btn-bordered {
+        padding: 20px 50px;
+    }
+    .quote {
+        padding: 50px;
+    }
+    .quote-icon {
+        left: -20px;
+        width: 60px;
+    }
+    .quote-text {
+        font-size: 1.8rem;
+    }
+    .quote-author {
+        font-size: 1.3rem;
+    }
+}
