@@ -3,7 +3,7 @@ const car = {
     maker: "Mercedes",
     model: "Benz",
     year: 2022,
-    medianSpeed: 200,
+    medianSpeed: 150,
     gasTank: 300,
     gasUsage: 10,
     drivers: ["Ben", "Bob"],
@@ -19,14 +19,18 @@ const car = {
     hasDriver: function (driver) {
         return this.drivers.includes(driver);
     },
-    fuelAmount: function () {
+    getTripTime: function (distance) {
+        const timeInRoad = distance / this.medianSpeed;
 
-    }
+        return timeInRoad + Math.floor(timeInRoad / 4);
+    },
+
 }
 car.carInfo();
 car.addDriver("Bill");
 console.log(car.hasDriver("Bill"));
 console.log(car.hasDriver("Bill 1"));
+console.log('Time for travel ' + car.getTripTime(1500) + ' hours');
 
 
 console.log(car);
