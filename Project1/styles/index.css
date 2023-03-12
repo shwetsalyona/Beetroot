@@ -117,9 +117,6 @@ body {
   padding-top: 20px;
   display: block;
 }
-.is-open .nav-menu-link:hover {
-  background-color: rgba(255, 255, 255, 0.42);
-}
 .is-open .burger {
   background-image: url("../images/burger-close.png");
   background-size: 70%;
@@ -138,6 +135,11 @@ body {
 }
 .burger-open {
   background-image: url("../images/burger.png");
+}
+.burger-close {
+  background-image: url("../images/burger-close.png");
+  background-size: 70%;
+  background-position: center;
 }
 
 .header-menu-controls {

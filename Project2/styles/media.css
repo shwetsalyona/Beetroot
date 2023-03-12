@@ -1,0 +1,13 @@
+@media (max-width: 1100px) {
+  .burger {
+    display: block;
+  }
+  .header-nav-menu, .media {
+    display: none;
+  }
+  .header-menu-controls {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */

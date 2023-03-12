@@ -182,7 +182,7 @@ body {
     padding-top: 20px;
     display: block;
     &:hover {
-      background-color: rgba(255, 255, 255, 0.42);
+      //background-color: rgba(255, 255, 255, 0.42);
     }
   }
   .burger {
@@ -204,6 +204,12 @@ body {
 
   &-open {
     background-image: url("../images/burger.png");
+  }
+
+  &-close {
+    background-image: url("../images/burger-close.png");
+    background-size: 70%;
+    background-position: center;
   }
 }
 
