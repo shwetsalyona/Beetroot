@@ -8,8 +8,18 @@ html {
   padding: 0;
 }
 
+.wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
 .wrapper-prime {
   padding: 0 20px;
+}
+
+.wrapper-small {
+  max-width: 770px;
+  margin: 0 auto;
 }
 
 .flex {
@@ -18,11 +28,6 @@ html {
 
 body {
   color: #2C4058;
-}
-
-.wrapper {
-  max-width: 1170px;
-  margin: 0 auto;
 }
 
 a {
@@ -175,11 +180,10 @@ span {
   margin-bottom: 120px;
 }
 .projects-card-inner {
-  height: 470px;
   gap: 64px;
 }
 .projects-card-inner-info {
-  max-width: 470px;
+  max-width: 490px;
 }
 .projects-card-inner-info-subtitle {
   font-family: MontserratRegular;
@@ -215,6 +219,7 @@ span {
 }
 .news-title {
   text-align: center;
+  padding-bottom: 90px;
 }
 .news-card {
   width: 370px;
@@ -268,6 +273,103 @@ span {
 
 .news-card-author-img3 {
   background-image: url("../images/news-photo-3.png");
+}
+
+.gallery {
+  padding-bottom: 300px;
+}
+.gallery-title {
+  text-align: center;
+  padding-bottom: 90px;
+}
+.gallery-container {
+  gap: 10px;
+}
+.gallery-container-photo {
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.gallery-btn {
+  margin: 60px auto 0 auto;
+  display: block;
+}
+
+.footer {
+  padding-top: 200px;
+  position: relative;
+  width: 100%;
+  height: 800px;
+  background-image: linear-gradient(251.06deg, #7E5AFF -2.19%, #55B7FF 103.21%), url("../images/footer-bg-img-city.png");
+}
+.footer-controls {
+  justify-content: space-between;
+}
+.footer-copyrights {
+  font-family: MontserratRegular;
+  font-size: 1.4rem;
+  color: #FFFFFF;
+  padding-top: 41px;
+}
+
+.contact {
+  position: absolute;
+  max-width: 770px;
+  left: 0;
+  right: 0;
+  top: -300px;
+  margin: 0 auto;
+  padding: 60px 60px 39px 60px;
+  background-color: #FFFFFF;
+  background-image: url("../images/get-in-touch-img.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.contact-divider {
+  margin-top: 0px;
+}
+.contact-title {
+  text-align: center;
+  padding-bottom: 42px;
+}
+.contact-container {
+  justify-content: space-between;
+}
+.contact-btn {
+  width: 140px;
+}
+.contact-btn-container {
+  justify-content: flex-end;
+}
+.contact-info {
+  width: 48%;
+}
+.contact-info-link {
+  display: block;
+  text-decoration: none;
+  color: #2C4058;
+  font-family: MontserratRegular;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  padding-bottom: 30px;
+}
+.contact-info-link-icon {
+  color: #7E5AFF;
+  padding-right: 10px;
+}
+.contact-form {
+  width: 50%;
+}
+
+input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #2C4058;
+  padding-bottom: 14px;
+  font-family: MontserratRegular;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  margin-bottom: 30px;
+  background: transparent;
 }
 
 /*# sourceMappingURL=index.css.map */
